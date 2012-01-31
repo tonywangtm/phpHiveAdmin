@@ -7,6 +7,7 @@ require_once $GLOBALS['THRIFT_ROOT'] . 'transport/TSocket.php';
 require_once $GLOBALS['THRIFT_ROOT'] . 'protocol/TBinaryProtocol.php';
 // Set up the transport/protocol/client
 
+//setting up Hive host IP and port
 define('HOST','192.168.1.49');
 define('PORT','10000');
 
